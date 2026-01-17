@@ -2222,7 +2222,7 @@
         width: 330px;
     }
 
-    .useful-pets__image, .useful-pets__text, .useful-pets__subtitle{
+    .useful-pets__image, .useful-pets__text, .useful-pets__subtitle, .useful-pets__title{
         width: 310px;
     }
 
@@ -2299,11 +2299,12 @@
     .hero-block__rectangle5{
         left: -45%
     }
+    
 }
 
 @media screen and (max-width:470px){
     .hero-block{
-        width: 100%;
+        width: 400px;
     }
 
     .footer__link{
@@ -2347,8 +2348,29 @@
     .header{
         width: 430px;
     }
+
+    .header__search-mobile-menu{
+        width: 350px;
+    }
+
     .hero-block__rectangle5{
         left: -75%
+    }
+
+    .cards{
+        width: 400px;
+    }
+
+    .banner{
+        width: 350px;
+    }
+
+    .useful-pets{
+        width: 400px;
+    }
+
+    .footer{
+        width: 400px;
     }
 }
 
