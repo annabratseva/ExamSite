@@ -2222,7 +2222,7 @@
         width: 330px;
     }
 
-    .useful-pets__image, .useful-pets__text, .useful-pets__subtitle, .useful-pets__title{
+    .useful-pets__image, .useful-pets__text, .useful-pets__subtitle{
         width: 310px;
     }
 
@@ -2289,26 +2289,21 @@
     }
 
     .hero-block{
-        width: 700px;
+        width: 100%;
     }
 
     .cards{
-        width: 600px
+        width: 100%;
     }
 
     .hero-block__rectangle5{
         left: -45%
     }
-
-    .footer{
-        width: 700px;
-    }
-    
 }
 
 @media screen and (max-width:470px){
     .hero-block{
-        width: 490px;
+        width: 100%;
     }
 
     .footer__link{
@@ -2352,69 +2347,8 @@
     .header{
         width: 430px;
     }
-
-    .header__search-mobile-menu{
-        width: 350px;
-    }
-
     .hero-block__rectangle5{
         left: -75%
     }
-
-    .cards{
-        width: 400px;
-    }
-
-    .banner{
-        width: 350px;
-    }
-
-    .useful-pets{
-        width: 400px;
-    }
-
-    .footer{
-        width: 400px;
-    }
 }
 
-@media screen and (max-width: 380px){
-    .hero-block, .header, .header__search-mobile-menu, .useful-pets__container, .banner__container, .footer{
-        width: 500px;
-    }
-
-    
-
-    .cards{
-        width: 500px;
-    }
-
-    .overall-desc,  .overall-desc__subtitle, .overall-desc__title{
-        width: 350px;
-    }
-
-    .overall-desc__title{
-        font-size: 15px;
-        padding-left: 70px;
-    }
-
-    .overall-desc__subtitle{
-        font-size: 12px;
-    }
-
-    .overall-desc__text-extra{
-        padding-left: 120px;
-    }
-
-    .text--width{
-        padding-left: 70px;
-    }
-
-    .main-buttons__container--mobile{
-        margin-left: 120px;
-    }
-
-    .bigger-mobile{
-        margin-left: 80px;
-    }
-}
