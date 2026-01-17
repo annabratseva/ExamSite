@@ -2346,11 +2346,11 @@
     }
 
     .header__search-mobile-menu{
-        width: 100%;
+        width: 350px;
     }
 
     .header{
-        width: 350px;
+        width: 400px;
         justify-content: center;
     }
     .hero-block__rectangle5{
