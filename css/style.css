@@ -2350,7 +2350,8 @@
     }
 
     .header{
-        width: 100%
+        width: 100%;
+        justify-content: center;
     }
     .hero-block__rectangle5{
         left: -75%
