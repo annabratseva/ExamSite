@@ -2355,6 +2355,10 @@
     .hero-block__rectangle5{
         left: -75%
     }
+
+    .useful-pets__title{
+        width: 300px;
+    }
 }
 
 
