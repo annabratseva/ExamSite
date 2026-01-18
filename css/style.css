@@ -46,9 +46,7 @@
     }
 }
 
-body{
-    overflow-x: hidden;
-}
+
 
 /* общие классы */
 
@@ -140,6 +138,7 @@ body{
     justify-content: space-around;
     align-items: center;
     z-index: 5;
+    overflow-x: hidden;
 }
 
 .header__nav{
@@ -250,6 +249,7 @@ body{
 
 .main{
     width: 100%;
+    overflow-x: hidden;
     
 }
 
