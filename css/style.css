@@ -129,7 +129,7 @@ body{
 /* HEADER */
 
 .header{
-    width: 100%;
+    width: 100vw;
 
     position: fixed;
     background-color: rgba(255, 255, 255, 0);
@@ -1399,7 +1399,7 @@ body{
 
     .banner__yellow-block2{
         bottom: -5%;
-        right: -25%;
+        right: -10%;
     }
 
     .banner__dark-block{
@@ -2107,10 +2107,7 @@ body{
  
 
     
-    
-    .header__search-mobile-menu{
-        width: 100%;
-    }
+ 
 
     .banner{
         width: 450px;
