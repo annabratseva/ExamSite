@@ -46,6 +46,11 @@
     }
 }
 
+body{
+    overflow-x: hidden;
+    width: 100vw;
+}
+
 /* общие классы */
 
 .overall-desc__subtitle{
@@ -245,7 +250,8 @@
 
 
 .main{
-    width: 100%;
+    width: 100vw;
+    overflow-x: hidden;
     
 }
 
@@ -283,7 +289,7 @@
     background: linear-gradient(134deg, #fceed5 6.17%, #fceed5 75.14%, #ffe7ba 100%);
     
     height: 800px;
-    width: 100%;
+    width: 100vw;
    
 
     display: flex;
@@ -294,6 +300,8 @@
 
     border-radius: 0 0 40px 40px;
     padding: 0 57%;
+
+    overflow-y: hidden;
 
     
 }
@@ -530,18 +538,19 @@
 
 
 .our-pets{
-    width: 100%;
+    width: 100vw;
     background-color: white;
     padding-top: 60px;
     height: fit-content;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
     
     
 }
 
 .cards{
-    width: 100%;
+    width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -745,7 +754,7 @@
 .banner__container{
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 100vw;
     align-items: center;
     margin-top: 50px;
     height: 400px;
@@ -889,13 +898,14 @@
 }
 
 .pet-sellers{
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 15px;
     margin-top: 7%;
+    overflow-x: hidden;
 }
 
 .main-buttons__container--mobile{
@@ -909,6 +919,8 @@
 
 .pet-products{
     margin-top: 30px;
+    width: 100vw;
+    overflow-x: hidden;
 }
 
 /* USEFUL PETS KNOWLEDGE */
@@ -918,11 +930,12 @@
 }
 
 .useful-pets{
-    width: 100%;
+    width: 100vw;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     gap: 28px;
+    overflow-x: hidden;
 }
 
 .useful-pets__container{
@@ -1009,7 +1022,7 @@
 
 .footer{
     margin-top: 100px;
-    width: 100%;
+    width: 100vw;
     border-radius: 40px 40px 0 0;
     height: 440px;
     background: linear-gradient(134deg, #fceed5 6.17%, #fceed5 75.14%, #ffe7ba 100%);
@@ -1018,6 +1031,7 @@
     justify-content: center;
     align-items: center;
     gap:40px;
+    overflow-x: hidden;
 }
 
 .footer__email{
@@ -1329,7 +1343,7 @@
         margin: 0 auto;
         padding-left: 50px;
         gap: 0;
-        width: 100%;
+        
     }
 
     .header__menu-mobile:hover{
@@ -1357,7 +1371,6 @@
     }
 
     .banner{
-        width: 1000px;
         padding: 0 70px;
         gap: 10px;
     }
@@ -1491,7 +1504,7 @@
     }
 
     .header__search-mobile-menu{
-        width:100%
+        width:100vw
     }
 }
 
@@ -1584,7 +1597,7 @@
 
     .cards{
         
-        width: 100%;
+        width: 100vw;
         margin: 0 auto;
         margin-top: 20px;
     }
@@ -1707,13 +1720,15 @@
         height: 400px;
     }
 
+     .cards{
+        width: 100vw;
+    }
+
 }
 
-@media screen and (max-width:1030px){
+@media screen and (max-width:1060px){
 
-    .cards{
-        width: 700px;
-    }
+    
 
     .hero-block__title{
         font-size: 38px;
@@ -1756,6 +1771,10 @@
     .hero-block__rectangle8{
         left: 70%;
         top:10%;
+    }
+    
+    .cards{
+        width: 70vw;
     }
 
     .card{
@@ -1846,24 +1865,14 @@
         display: flex;
     }
 
-    .header{
-        justify-content: space-between;
-        margin: 0 auto;
-        padding-left: 50px;
-        gap: 0;
-        width: 100%;
-    }
+   
+  
 
-    .header__search-mobile-menu{
-       width: 100%;  
-    }
  
 }
 
 @media screen and (max-width:890px){
-    .banner{
-        width: 500px;
-    }
+    
 
     .useful-pets__card{
         width: 400px;
@@ -1877,6 +1886,8 @@
     .useful-pets__subtitle{
         font-size: 13px;
     }
+
+    
 
     .useful-pets__title{
         font-size: 15px;
@@ -1964,7 +1975,7 @@
         padding: 30px 20px;
         gap: 0;
 
-        width: 100%;
+ 
     }
 
     .hero-block__title{
@@ -1981,7 +1992,7 @@
     }
 
     .cards{
-        width: 700px;
+        width: 80vw
     }
 
     .overall-desc{
@@ -2089,17 +2100,11 @@
         width: 400px;
     }
 
-    .header__search-mobile-menu{
-        width: 100%;
-    }
+    
 }
 
 @media screen and (max-width:730px) {
-    .header{
-        gap: 0;
-        justify-content: space-around;
-        width: 100%;
-    }
+ 
 
     
     
@@ -2135,9 +2140,7 @@
         gap: 45px;
     }
 
-    .cards{
-        width: 100%;
-    }
+   
     
 }
 
@@ -2146,13 +2149,9 @@
         width: 350px;
     }
 
-    .header{
-        width: 100%;
-    }
 
-    .header__search-mobile-menu{
-        width: 100%;
-    }
+
+   
 
     .overall-desc, .overall-desc__title, .overall-desc__subtitle{
         width: 300px;
@@ -2250,9 +2249,7 @@
         font-size: 30px;
     }
 
-    .banner{
-        width: 370px;
-    }
+   
 
     .footer__email, .footer__top-container{
         width: 350px;
@@ -2292,13 +2289,9 @@
         right: -30%;
     }
 
-    .hero-block{
-        width: 100%;
-    }
+   
 
-    .cards{
-        width: 100%;
-    }
+   
 
     .hero-block__rectangle5{
         left: -45%
@@ -2306,9 +2299,7 @@
 }
 
 @media screen and (max-width:470px){
-    .hero-block{
-        width: 100%;
-    }
+  
 
     .footer__link{
         font-size: 14px;
@@ -2349,7 +2340,7 @@
     }
 
     .header{
-        width: 400px;
+      
         justify-content: center;
     }
     .hero-block__rectangle5{
